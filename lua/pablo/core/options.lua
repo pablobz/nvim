@@ -2,8 +2,6 @@ local opt = vim.opt -- for conciseness
 vim.g.mapleader = ","
 
 -- line numbers
-opt.number = true
-opt.relativenumber = true
 
 -- tabs & indentation
 opt.tabstop = 2
