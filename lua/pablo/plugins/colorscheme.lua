@@ -17,4 +17,10 @@ return {
     lazy = false,
     priority = 1000,
   },
+  {
+    "machakann/vim-colorscheme-tatami",
+    name = "tatami",
+    lazy = false,
+    priority = 1000,
+  },
 }

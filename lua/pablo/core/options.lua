@@ -2,6 +2,8 @@ local opt = vim.opt -- for conciseness
 vim.g.mapleader = ","
 
 -- line numbers
+opt.number = true
+opt.relativenumber = true
 
 -- tabs & indentation
 opt.tabstop = 2
@@ -27,6 +29,9 @@ opt.signcolumn = "yes"
 
 -- backspace
 opt.backspace = "indent,eol,start"
+
+-- spell
+opt.spell = true
 
 -- clipboard
 opt.clipboard:append("unnamedplus")
