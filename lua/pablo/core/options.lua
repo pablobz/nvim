@@ -32,6 +32,7 @@ opt.backspace = "indent,eol,start"
 
 -- spell
 opt.spell = true
+vim.opt.spelllang = { "es", "es-es" }
 
 -- clipboard
 opt.clipboard:append("unnamedplus")
