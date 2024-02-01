@@ -18,8 +18,8 @@ return {
     priority = 1000,
   },
   {
-    "machakann/vim-colorscheme-tatami",
-    name = "tatami",
+    "EdenEast/nightfox.nvim",
+    name = "nightfox",
     lazy = false,
     priority = 1000,
   },
