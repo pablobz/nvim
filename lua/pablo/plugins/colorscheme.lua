@@ -31,6 +31,10 @@ return {
     name = "kanagawa",
     lazy = false,
     priority = 1000,
+    opts = {
+      transparent = true,
+      theme = "dragon",
+    }
   },
   {
     "EdenEast/nightfox.nvim",
