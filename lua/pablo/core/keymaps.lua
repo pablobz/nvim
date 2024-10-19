@@ -6,5 +6,8 @@ local expr_opts = { noremap = true, expr = true, silent = true }
 keymap("n", "k", "v:count == 0 ? 'gk' : 'k'", expr_opts)
 keymap("n", "j", "v:count == 0 ? 'gj' : 'j'", expr_opts)
 
+inoremap jk <ESC>
+inoremap kj <ESC>
+
 vim.api.nvim_command ("digraph -- 8212")
 vim.api.nvim_command ("digraph .. 8230")
