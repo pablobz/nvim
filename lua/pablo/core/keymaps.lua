@@ -8,5 +8,8 @@ keymap("n", "j", "v:count == 0 ? 'gj' : 'j'", expr_opts)
 vim.api.nvim_set_keymap('i', 'jk', '<ESC>', {noremap = true})
 vim.api.nvim_set_keymap('i', 'kj', '<ESC>', {noremap = true})
 
+vim.api.nvim_set_keymap('i', '@sc', '<!--', {noremap = true})
+vim.api.nvim_set_keymap('i', '@ec', '-->', {noremap = true})
+
 vim.api.nvim_command ("digraph -- 8212")
 vim.api.nvim_command ("digraph .. 8230")

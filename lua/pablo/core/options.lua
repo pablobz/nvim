@@ -1,5 +1,6 @@
 local opt = vim.opt -- for conciseness
 vim.g.mapleader = ","
+vim.opt.swapfile = false
 
 -- line numbers
 opt.number = true
