@@ -21,3 +21,5 @@ keymap("n", "zo", "<cmd>ZettelOpen<CR>", default_opts)
 vim.keymap.set("i", "[[", function()
   require("pablo.myzettel.complete").insert_link()
 end, { noremap = true, silent = true, desc = "Buscar e insertar enlace Zettel" })
+
+vim.keymap.set("v", "zc", ":ZettelExtract<CR>", { noremap = true, silent = true, desc = "Extraer notas y crear enlaces" })
