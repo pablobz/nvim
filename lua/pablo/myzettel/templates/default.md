@@ -4,12 +4,10 @@
 
 ---
 
-## Arriba
+## Enlaces
 
 
-## Abajo
+---
 
-
-## Meta
-Tags: %%tags%%
-Creación: %%date%%
+%%tags%%
+Creada el %%date%%
