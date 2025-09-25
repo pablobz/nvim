@@ -128,7 +128,7 @@ local function create_note_file(uid, title, body, tags, parent_uid, parent_title
   if parent_uid and parent_title then
     local lines = vim.split(template, "\n")
     for i, line in ipairs(lines) do
-      if line:match("^##%s*Arriba") then
+      if line:match("^##%s*Enlaces") then
         table.insert(lines, i + 1, string.format("[[%s]] %s", parent_uid, parent_title))
         break
       end
