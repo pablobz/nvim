@@ -23,3 +23,6 @@ vim.keymap.set("i", "[[", function()
 end, { noremap = true, silent = true, desc = "Buscar e insertar enlace Zettel" })
 
 vim.keymap.set("v", "zc", ":ZettelExtract<CR>", { noremap = true, silent = true, desc = "Extraer notas y crear enlaces" })
+
+vim.api.nvim_set_keymap('i', '<<', '«', {noremap = true})
+vim.api.nvim_set_keymap('i', '>>', '»', {noremap = true})
