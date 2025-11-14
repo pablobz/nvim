@@ -8,10 +8,3 @@ require("pablo.core.keymaps")
 require("pablo.lazy")
 require("pablo.core.colorscheme")
 
-
-vim.api.nvim_create_autocmd("BufEnter", {
-  pattern = vim.fn.expand("$HOME") .. "/zettelkasten/*.md",
-  callback = function()
-    vim.opt_local.spell = false
-  end,
-})
