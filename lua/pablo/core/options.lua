@@ -43,3 +43,6 @@ opt.splitright = true
 opt.splitbelow = true
 
 opt.iskeyword:append("-")
+
+-- surround
+let g:surround_91 = '[[\r]]'
