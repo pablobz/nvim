@@ -46,3 +46,6 @@ opt.iskeyword:append("-")
 
 -- surround
 
+-- folding
+vim.o.foldmethod = "marker"
+vim.o.foldmarker = "···,···"
