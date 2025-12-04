@@ -47,5 +47,5 @@ opt.iskeyword:append("-")
 -- surround
 
 -- folding
-opt.foldmethod = "marker"
 opt.foldmarker = "(··,··)"
+opt.foldmethod = "marker"
