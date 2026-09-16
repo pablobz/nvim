@@ -49,3 +49,22 @@ opt.iskeyword:append("-")
 -- folding
 opt.foldmarker = "(··,··)"
 opt.foldmethod = "marker"
+
+-- markdown con html
+vim.g.markdown_fenced_languages = {
+  "html",
+  "css",
+  "javascript",
+}
+
+-- conceal
+vim.g.vimwiki_conceallevel = 0
+vim.g.vimwiki_conceal_onechar_markers = 0
+
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = "vimwiki",
+  callback = function()
+    vim.opt_local.conceallevel = 0
+    vim.opt_local.concealcursor = ""
+  end,
+})
